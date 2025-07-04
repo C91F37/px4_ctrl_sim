@@ -28,4 +28,23 @@ It is ideal for prototyping controller logic, debugging trajectory-following alg
 - Benchmarking control response under trajectory perturbations
 
 ## 📦 Folder Structure
+```bash
+px4_ctrl_sim/
+├── sim/
+│ ├── drone.py
+│ ├── trajectory.py
+│ └── controller.py
+├── scripts/
+│ └── run_sim.py
+├── visualization/
+│ └── plot_trajectory.py
+├── tests/
+│ └── test_sim.py
+├── requirements.txt
+└── README.md
+```
 
+## 🛠️ Installation
+
+```bash
+pip install -r requirements.txt
